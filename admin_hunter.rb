@@ -28,7 +28,7 @@ end
 # Parse options
 options = {}
 OptionParser.new do |opts|
-  opts.banner = "Usage: ruby admin_finder.rb -w wordlist.txt -u http://example.com -o output.txt"
+  opts.banner = "Usage: ruby admin_hunter.rb -w wordlist.txt -u http://example.com -o output.txt"
 
   opts.on("-w", "--wordlist FILE", "Path to the wordlist file (Default: admin.txt)") do |file|
     options[:wordlist] = file
